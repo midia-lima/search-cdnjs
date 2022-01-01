@@ -1,0 +1,32 @@
+<div class="container mt-5 search-table">
+  <div class="search-box">
+    <div class="row">
+      <div>
+        <p>Consulte a última versão das bibliotecas JavaScript e CSS</p>
+      </div>
+      <div class="col-md-9">
+        <input type="text" class="form-control" [formControl]="queryField">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary" (click)="onSearch()">Pesquisar</button>
+      </div>
+    </div>
+  </div>
+  <div class="search-list mt-3">
+    <h3>{{ total }} Frameworks Encontrados</h3>
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Versão</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let result of results$ | async">
+          <td>{{ result.name }}</td>
+          <td>{{ result.version }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
