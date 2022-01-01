@@ -15,6 +15,6 @@
 git clone https://github.com/midia-lima/search-cdnjs.git
 ```
 
-<h2>:link: Confira o Resultado</h2>  
+<h2>:rocket: Deploy</h2>  
 https://search-cdnjs.web.app/reactive-search
 
