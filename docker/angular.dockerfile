@@ -1,9 +1,9 @@
 # image da aplicação também não funcionou
-FROM node:14.17.0 as angular
+FROM node:latest
 LABEL Midiã L
 WORKDIR /app
 COPY package.json /app
-RUN npm install --silent
+RUN npm install
 COPY . .
 RUN npm start
 
