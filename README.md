@@ -6,7 +6,7 @@
 
 <h2>:computer:Tecnologias</h2>
 <p>API utilizada https://api.cdnjs.com/libraries<p>
-<p>método GET</p>
+<p>Método GET</p>
 
 <h2>:sheep: Clonando o Repósitorio</h2>
 <p>Para clonar o repósitorio, você deve abrir o <b>terminal</b> ou <b>git bash</b> na pasta que deseja adicionar o projeto. Após isso execute a linha de comando:</p>
@@ -15,6 +15,6 @@
 git clone https://github.com/midia-lima/search-cdnjs.git
 ```
 
-<h2>:link: Confira o Resultado</h2>  
+<h2>:rocket: Deploy</h2>  
 https://search-cdnjs.web.app/reactive-search
 
